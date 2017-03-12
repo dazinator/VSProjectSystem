@@ -18,6 +18,7 @@
     <ProjectCapability Include="OpenProjectFile"/>
     <ProjectCapability Include="HandlesOwnReload"/>
     <ProjectCapability Include="ProjectConfigurationsDeclaredAsItems"/>
+    <ProjectCapability Include="SingleFileGenerators" />
   </ItemGroup>
 
   <ItemGroup>

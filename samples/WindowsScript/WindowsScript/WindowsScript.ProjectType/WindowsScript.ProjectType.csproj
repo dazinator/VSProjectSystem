@@ -172,6 +172,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FooGenerator.cs" />
     <Compile Include="MyConfiguredProject.cs" />
     <Compile Include="MyUnconfiguredProject.cs" />
     <Compile Include="ProjectProperties.cs" />
@@ -193,7 +194,9 @@
   -->
   <ItemGroup>
     <None Include="BuildSystem\DeployedBuildSystem\WindowsScript.props" />
-    <None Include="BuildSystem\DeployedBuildSystem\WindowsScript.targets" />
+    <None Include="BuildSystem\DeployedBuildSystem\WindowsScript.targets">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <!--
   The XAML files provide buth compile-time implementations for CPS rules as well as

@@ -27,6 +27,8 @@ namespace WindowsScript
     [PackageRegistration(UseManagedResourcesOnly = true)]
     [Description("A custom project type based on CPS")]
     [Guid(VsPackage.PackageGuid)]
+    [CodeGeneratorRegistration(typeof(FooGenerator), "FooGenerator", GeneratorProjectTypeGuid, GeneratesDesignTimeSource = true)]
+    [ProvideObject(typeof(FooGenerator))]
     public sealed class VsPackage : Package
     {
         /// <summary>
@@ -50,5 +52,7 @@ namespace WindowsScript
         /// resource names can be calculated for embedded resources.
         /// </summary>
         internal const string DefaultNamespace = "WindowsScript";
+
+        public const string GeneratorProjectTypeGuid = "{" + ProjectTypeGuid + "}";
     }
 }
