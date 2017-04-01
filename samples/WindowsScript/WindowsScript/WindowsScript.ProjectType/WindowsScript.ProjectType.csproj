@@ -181,6 +181,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <Content Include="newtonsoft.json.10.0.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Packages</VSIXSubPath>
+    </Content>
     <None Include="packages.config" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
