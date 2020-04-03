@@ -6,8 +6,12 @@
 
   <Import Project="$(CustomProjectExtensionsPath)WindowsScript.props" />
   <ItemGroup>
-    <Script Include="**\*.js" />
-    <Script Include="**\*.vbs" />
+    <Script Include="**\*.js">
+      <Generator>FooGenerator</Generator>
+    </Script>
+    <Script Include="**\*.vbs">
+      <Generator>FooGenerator</Generator>
+    </Script>
   </ItemGroup>
   <Import Project="$(CustomProjectExtensionsPath)WindowsScript.targets" />
 </Project>

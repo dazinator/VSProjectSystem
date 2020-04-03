@@ -10,7 +10,7 @@
         <DataSource Persistence="ProjectFile" Label="Configuration" ItemType="Script" HasConfigurationCondition="false" />
     </Rule.DataSource>
 
-    <StringProperty Name="Generator" Visible="True"/>
+    <!--<StringProperty Name="Generator" Visible="True"/>-->
     <BoolProperty Name="Visible" Visible="false" />
     <StringProperty Name="DependentUpon" Visible="false" />
     <StringProperty Name="Link" Visible="false" />

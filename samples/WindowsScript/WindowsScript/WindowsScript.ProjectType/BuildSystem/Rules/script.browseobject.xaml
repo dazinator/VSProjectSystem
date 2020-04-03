@@ -22,6 +22,7 @@
         </StringProperty.DataSource>
     </StringProperty>
 
+    <StringProperty Name="Generator" Visible="True"/>
     <BoolProperty Name="Visible" Visible="false" />
     <StringProperty Name="DependentUpon" Visible="false" />
     <StringProperty Name="Link" Visible="false" />

@@ -185,6 +185,7 @@
     <None Include="packages.config" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
+      <Generator>aaa</Generator>
     </None>
     <None Include="Key.snk" />
   </ItemGroup>
